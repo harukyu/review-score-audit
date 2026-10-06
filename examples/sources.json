@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "platform-a",
+      "rating": "4.8",
+      "count": 120,
+      "scale_min": "1",
+      "scale_max": "5",
+      "updated_at": "2026-10-06",
+      "url": "https://reviews.example.test/profile-a"
+    },
+    {
+      "id": "platform-b",
+      "rating": "4.2",
+      "count": 30,
+      "scale_min": "1",
+      "scale_max": "5",
+      "updated_at": "2026-10-06",
+      "url": "https://reviews.example.test/profile-b"
+    }
+  ]
+}

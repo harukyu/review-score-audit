@@ -1,0 +1,15 @@
+{
+  "slug": "review-score-audit",
+  "title": "Review Score Audit",
+  "version": "0.1.0",
+  "module": "review_score_audit.py",
+  "python_minimum": "3.10",
+  "license": "MIT",
+  "examples": [
+    "examples/sources.json",
+    "examples/needs-review.json",
+    "examples/reports/sources.json",
+    "examples/reports/needs-review.json",
+    "docs/demo.html"
+  ]
+}

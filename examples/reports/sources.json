@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "analyzer_version": "0.1.0",
+  "complete": true,
+  "as_of": "2026-10-06",
+  "method": "count_weighted_mean_of_recorded_source_averages",
+  "target_scale": {
+    "min": "1",
+    "max": "5"
+  },
+  "summary": {
+    "source_count": 2,
+    "included_sources": 2,
+    "recorded_review_count_sum": 150,
+    "score": "4.68",
+    "errors": 0,
+    "warnings": 0
+  },
+  "sources": [
+    {
+      "id": "platform-a",
+      "count": 120,
+      "rating": "4.8",
+      "scale_min": "1",
+      "scale_max": "5",
+      "normalized_rating": "4.800000",
+      "updated_at": "2026-10-06",
+      "has_source_link": true,
+      "weight_percent": "80.00"
+    },
+    {
+      "id": "platform-b",
+      "count": 30,
+      "rating": "4.2",
+      "scale_min": "1",
+      "scale_max": "5",
+      "normalized_rating": "4.200000",
+      "updated_at": "2026-10-06",
+      "has_source_link": true,
+      "weight_percent": "20.00"
+    }
+  ],
+  "issues": [],
+  "limitations": [
+    "Source averages may already be rounded; the pooled result is approximate.",
+    "Summed source counts are not a count of unique people or deduplicated reviews.",
+    "Values and dates are user supplied; no platform is contacted or verified.",
+    "Linear scale conversion does not prove that rating systems are comparable."
+  ]
+}
